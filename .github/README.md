@@ -2,7 +2,7 @@
 
 > This is a copy of a specific article featured in The New York Times on March 17 2014.
 
-<img src="assets/images/nyt1.png">
+![screenshot](assets/images/nyt1.png)
 ## Built With
 
 - HTML
