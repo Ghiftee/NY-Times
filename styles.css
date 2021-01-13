@@ -1,9 +1,3 @@
-/* * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-  }   */
-
 li {
   list-style: none;
 }
@@ -63,11 +57,9 @@ nav {
 .header1 {
   display: flex;
   flex-direction: column;
-  /* justify-items: center; */
   align-items: center;
   padding-top: 70px;
   width: 100%;
-  /* margin-left: 100px; */
 }
 
 .header-text {
@@ -90,7 +82,6 @@ nav {
 .main-icons {
   margin-right: 650px;
   margin-top: -50px;
-  /* margin-bottom: -100px; */
   padding-top: 10px;
 }
 
@@ -125,7 +116,7 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 70%;
+  width: 65%;
   margin-left: 300px;
   font-size: 20px;
   font-weight: 400;
@@ -171,7 +162,6 @@ nav {
 /* aside-box */
 
 .asideflex-container {
-  /* align-items: flex-start;    */
   margin-top: 600px;
   margin-left: 40px;
   margin-right: 10px;
@@ -209,3 +199,94 @@ nav {
   cursor: pointer;
   text-decoration: underline;
 }
+
+/* article 3 */
+
+.article-pstyles-big {
+  margin-right: 365px;
+}
+
+.article-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 65%;
+  margin-left: 300px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+
+/* graphic-image */
+
+
+.graphicImage {
+  width: 65%;
+  margin: 20px 100px 20px 250px;
+  padding: 20px 0 10px 0;
+
+}
+
+.graphicImageGrid {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 25% 25% 25% 25%;
+  grid-gap: 10px;
+}
+
+.graphicImageP-style {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.graphicImg-style {
+  height: 150px;
+  width: 200px;
+}
+
+.graphicP-style {
+  margin-top: 25px;
+  font-size: 13px;
+}
+
+.graphicbottomp-style {
+  margin-top: 20px;
+  border-top: 1px solid black;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 14px;
+}
+
+/* article */
+
+.videoandimgtext {
+  font-size: 15px;
+  padding-top: -20px;
+  opacity: 80%;
+}
+
+.article-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 45%;
+  margin-left: 300px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.special-time {
+  margin-left: -400px;
+}
+
+.article-5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 45%;
+  margin-left: 300px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* sub footer */
