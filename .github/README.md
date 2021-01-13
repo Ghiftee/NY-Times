@@ -2,7 +2,7 @@
 
 > This is a copy of a specific article featured in The New York Times on March 17 2014.
 
-<img src="assets/images/nyt.png">
+<img src="assets/images/nyt1.png">
 ## Built With
 
 - HTML
@@ -10,7 +10,7 @@
 
 ## Live Demo
 
-[NYT-Clone]https://rawcdn.githack.com/Ghiftee/NY-Times/91f1ab46d531f3951806ba239bc2c3549a2404a4/index.html)
+[NYT-Times](https://rawcdn.githack.com/Ghiftee/NY-Times/91f1ab46d531f3951806ba239bc2c3549a2404a4/index.html)
 
 ## Authors
 
