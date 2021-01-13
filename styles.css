@@ -1,0 +1,40 @@
+/* * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }   */
+
+  li{
+    list-style: none;
+}
+
+
+nav{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    margin-top: -20px;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border-bottom: 1px solid black;
+}
+
+.logo{
+    height: 37px;
+}
+
+.right-nav, .left-nav{
+    display: flex;
+}
+
+.right-nav1{
+    padding-right: 10px;
+}
+
+.left-nav1{
+    padding-right: 15px;
+}
+
+.right-nav img{
+    height: 15px;
+}
