@@ -2,7 +2,6 @@ li {
   list-style: none;
 }
 
-
 nav {
   display: flex;
   position: fixed;
@@ -11,7 +10,7 @@ nav {
   padding-top: 8px;
   margin-top: -20px;
   justify-content: space-between;
-  background-color: #ffffff;
+  background-color: #fff;
   border-bottom: 1px solid black;
 }
 
@@ -265,6 +264,14 @@ nav {
   opacity: 80%;
 }
 
+.article-pstyles1 {
+  margin-right: 286px;
+}
+
+.article-pstyles2 {
+  margin-right: 85px;
+}
+
 .article-4 {
   display: flex;
   flex-direction: column;
@@ -287,6 +294,10 @@ nav {
   margin-left: 300px;
   font-size: 20px;
   font-weight: 400;
+}
+
+.embeddedimg-style {
+  height: 370px;
 }
 
 /* sub footer */
