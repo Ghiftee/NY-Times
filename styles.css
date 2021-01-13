@@ -371,14 +371,13 @@ nav {
 .moreImageandArticle2 {
   border-top: 1px solid black;
   margin-top: 20px;
-  padding-top: 15px;
+  padding-top: 10px;
 }
 
 .image-section {
   display: grid;
   grid-template-columns: 33.33% 33.33% 33.33%;
   grid-template-rows: 50% 50%;
-  /* grid-gap: 40px; */
 }
 
 .editorimagesection {
