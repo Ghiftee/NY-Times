@@ -13,6 +13,8 @@ nav{
     display: flex;
     position: fixed;
     width: 100%;
+    padding-bottom: -20px;
+    padding-top: 8px;
     margin-top: -20px;
     justify-content: space-between;
     background-color: #ffffff;
@@ -21,6 +23,7 @@ nav{
 
 .logo{
     height: 37px;
+    margin-left: 100px;
 }
 
 .right-nav, .left-nav{
@@ -28,7 +31,11 @@ nav{
 }
 
 .right-nav1{
-    padding-right: 10px;
+    padding-right: 20px;
+}
+
+.left-nav{
+  margin-right: 13px;
 }
 
 .left-nav1{
@@ -37,4 +44,78 @@ nav{
 
 .right-nav img{
     height: 15px;
+}
+
+
+.left-nav-button{
+  color: white;
+  background-color: rgb(8, 61, 110);
+  border: none;
+}
+
+.header1 img{
+  height: 570px;
+}
+
+/* header 2 */
+
+.header1{
+  display: flex;
+  flex-direction: column;
+  /* justify-items: center; */
+  align-items: center;
+  padding-top: 70px;
+  width: 100%;
+  /* margin-left: 100px; */
+}
+
+.header-text{
+  font-size: 58px;
+  font-style: italic;
+  padding-bottom: 13px;
+  border-bottom: 1px solid rgb(196, 191, 191);
+}
+
+.img-text{
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.img-text-span{
+  font-size: 17px;
+  opacity: 70%;
+}
+
+.main-icons{
+  margin-right: 650px;
+  margin-top: -50px;
+  /* margin-bottom: -100px; */
+  padding-top: 10px;
+}
+
+.mainareaheader-icon{
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  background-color: rgb(170, 170, 170);
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.bookmarkicon{
+  height: 55px;
+  padding-right: 10px;
+}
+
+/* main-article */
+
+.main-flex-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+}
+
+.dennis-1 a{
+  color: black;
 }
