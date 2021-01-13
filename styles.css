@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+}
+
 li {
   list-style: none;
 }
@@ -16,7 +20,7 @@ nav {
 
 .logo {
   height: 37px;
-  margin-left: 100px;
+  margin-left: 30px;
 }
 
 .right-nav,
@@ -24,8 +28,15 @@ nav {
   display: flex;
 }
 
+.right-nav-text {
+  font-size: 15px;
+  font-weight: 700;
+  padding-left: 10px;
+}
+
 .right-nav1 {
   padding-right: 20px;
+  padding-top: 15px;
 }
 
 .left-nav {
@@ -340,4 +351,188 @@ nav {
 
 .bottom-button-1:hover {
   cursor: pointer;
+}
+
+/* bottom-section */
+
+.bottom-section {
+  display: flex;
+  width: 90%;
+  margin-left: 10px;
+}
+
+.moreImageandArticle {
+  border-top: 1px solid black;
+  margin: 10px 0 0 150px;
+  padding: 15px 0 0 0;
+  width: 65%;
+}
+
+.moreImageandArticle2 {
+  border-top: 1px solid black;
+  margin-top: 20px;
+  padding-top: 15px;
+}
+
+.image-section {
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+  grid-template-rows: 50% 50%;
+  /* grid-gap: 40px; */
+}
+
+.editorimagesection {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+
+.bottom-images {
+  height: 180px;
+  width: 300px;
+  padding: 20px 35px 0 0;
+}
+
+.bootomli1 {
+  padding-left: 65px;
+}
+
+.bootomli2 {
+  font-size: 13px;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+}
+
+.bootomli1,
+.bootomli3 {
+  font-size: 8px;
+  color: rgb(154, 158, 158);
+}
+
+.link-section {
+  border-top: 1px solid black;
+  margin: 10px 0 0 80px;
+  align-content: flex-end;
+  padding: 10px 0 0 15px;
+}
+
+.plinksection {
+  margin-top: 10px;
+  padding: 10px 0;
+  border-top: 1px solid rgb(184, 180, 180);
+  font-size: 16px;
+}
+
+.plinksection a {
+  color: black;
+}
+
+/* comments Button Section */
+
+.commentBtnSection {
+  margin: 20px 5px;
+}
+
+.commentsBtn {
+  width: 250px;
+  height: 40px;
+  background-color: rgb(86, 123, 149);
+  border: 1px solid rgb(86, 123, 149);
+  border-radius: 2%;
+  color: white;
+}
+
+.footer-icon {
+  padding-left: 50px;
+}
+
+/* bottom-links */
+
+.bottom-links {
+  margin-top: 20px;
+  margin-left: 150px;
+  border-top: 2px outset grey;
+  width: 80%;
+  display: inline-block;
+  padding-top: 15px;
+}
+
+.linktoHomePage {
+  float: right;
+}
+
+.links-styles {
+  display: flex;
+  font-size: 14px;
+  padding: 15px;
+  margin-left: -20px;
+  justify-content: space-between;
+}
+
+.linkcolumn-styles {
+  font-size: 12.5px;
+  margin: 10px;
+  color: black;
+}
+
+.linkcolumn-styles a {
+  color: black;
+}
+
+.bottomlinksideBar-style {
+  border-left: 1px solid rgb(187, 184, 184);
+  padding-left: 20px;
+}
+
+.bottomlinknytlogo {
+  height: 10px;
+}
+
+.bottomlinksidebarlink-style {
+  margin: 10px;
+  font-size: 13px;
+}
+
+.bottomlinksidebaratag-style {
+  font-size: 10px;
+  color: black;
+}
+
+.space-style {
+  margin-top: 10px;
+}
+
+.space-style2 {
+  padding-top: 12px;
+}
+
+.mobileapplink-style {
+  border-bottom: 1px solid rgb(187, 184, 184);
+  padding-bottom: 10px;
+}
+
+.endlink {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 20px 130px 20px;
+  font-size: 10px;
+  padding-top: 10px;
+  border-top: 1px solid rgb(187, 184, 184);
+}
+
+footer {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  background-color: #fff;
+  display: flex;
+  height: 60px;
+  padding-top: 10px;
+  padding-left: 400px;
+  font-size: 16px;
+  border-top: 1px solid black;
+}
+
+.nylogo-style {
+  height: 30px;
 }
