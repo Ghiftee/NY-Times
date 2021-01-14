@@ -88,7 +88,7 @@ nav {
 
 .img-text {
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .img-text-span {
@@ -237,12 +237,16 @@ nav {
 
 .graphicImage {
   width: 65%;
-  margin: 20px 100px 20px 250px;
-  padding: 20px 0 10px 0;
+  margin: 20px 100px -20px 250px;
+  padding: 20px 0 -40px 0;
 }
 
 .graphicImageGrid {
+  background-image: url("assets/images/inflation-945.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
   display: grid;
+  padding-bottom: -40px;
   grid-template-columns: 25% 25% 25% 25%;
   grid-template-rows: 25% 25% 25% 25%;
   grid-gap: 10px;
@@ -253,18 +257,18 @@ nav {
   font-weight: bold;
 }
 
-.graphicImg-style {
-  height: 150px;
-  width: 200px;
-}
-
 .graphicP-style {
-  margin-top: 25px;
+  margin-top: 150px;
   font-size: 13px;
 }
 
+.graphicP-style1 {
+  font-size: 13px;
+  margin-top: 200px;
+}
+
 .graphicbottomp-style {
-  margin-top: 20px;
+  margin-top: -100px;
   border-top: 1px solid black;
   font-size: 12px;
   font-weight: bold;
@@ -281,6 +285,11 @@ nav {
 
 .article-pstyles1 {
   margin-right: 286px;
+}
+
+.article-pstyles-link {
+  color: rgb(98, 98, 187);
+  text-decoration: underline;
 }
 
 .article-pstyles2 {
@@ -359,6 +368,11 @@ nav {
   display: flex;
   width: 90%;
   margin-left: 10px;
+}
+
+.bottom-section-text {
+  font-size: 17px;
+  font-weight: 800;
 }
 
 .moreImageandArticle {
@@ -530,6 +544,10 @@ footer {
   padding-left: 400px;
   font-size: 16px;
   border-top: 1px solid black;
+}
+
+footer a {
+  color: black;
 }
 
 .nylogo-style {
