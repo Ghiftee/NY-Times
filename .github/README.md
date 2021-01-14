@@ -10,7 +10,7 @@
 
 ## Live Demo
 
-[NYT-Clone](https://rawcdn.githack.com/Ghiftee/NY-Times/91f1ab46d531f3951806ba239bc2c3549a2404a4/index.html)
+[NYT-Clone](https://rawcdn.githack.com/Ghiftee/NY-Times/cb6817f4e3d519e34737ab3b9997dddc0a434503/index.html)
 
 ## Authors
 
