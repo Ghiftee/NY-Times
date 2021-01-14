@@ -125,6 +125,10 @@ nav {
   width: 70%;
 }
 
+footer a {
+  color: black;
+}
+
 .dennis-1 a {
   color: black;
 }
@@ -544,10 +548,6 @@ footer {
   padding-left: 400px;
   font-size: 16px;
   border-top: 1px solid black;
-}
-
-footer a {
-  color: black;
 }
 
 .nylogo-style {
