@@ -366,6 +366,66 @@ footer a {
   cursor: pointer;
 }
 
+/* form section */
+
+.entire-form{
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+  border-radius: 10px;
+  align-items: center;
+  box-sizing: inherit;
+  width: 37%;
+  margin: 50px 0px 50px 330px;
+}
+
+h1{
+  text-align: center;
+}
+
+p{
+  margin-bottom: 5px;
+}
+
+#name, #email{
+  width: 410px;
+  height: 20px;
+  border-radius: 10px;
+  border: none;
+  border-bottom: 1px solid;
+  outline: none;
+}
+
+.submit-button{
+  width: 430px;
+  line-height: 5px;
+  margin-bottom: 20px;
+  align-content: center;
+  background-color: cadetblue;
+  color: #fff;
+  font-size: 15px;
+  word-spacing: 3px;
+  padding: 15px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  padding: 10px;
+  border: transparent;
+  font-weight: 100;
+}
+
+#comment{
+  width: 410px;
+  height: 100px;
+  padding: 10px;
+  outline: none;
+  border-radius: 10px;
+}
+
+::placeholder{
+  font-family: cursive;
+  font-size: 12px;
+}
+
 /* bottom-section */
 
 .bottom-section {

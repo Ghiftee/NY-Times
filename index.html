@@ -391,6 +391,48 @@
                 <span class="mainareaheader-icon"><i class="fas fa-share"></i></span>
             </div>
         </div>
+
+        <!-- Form section -->
+        <fieldset class="entire-form">
+            <form action="#" method="POST">
+                <h1>Talk to Us!</h1>
+                <div class="form-info">
+                    <label for="name">Username</label>
+                </div>  
+                <br>
+                <input type="text" name="username" id="name" placeholder="Enter your username" maxlength="20" required>
+                <br>
+                <br>
+                <div class="form-info">
+                    <label for="email">Email Address</label>
+                </div>
+                <br>
+                <input type="email" name="email-address" id="email" placeholder="Enter your Email Address" maxlength="20" required>
+                <br>
+                <br>
+                <p>What is your overall opinion about this article?</p>
+                <input type="radio" name="answer" id="opinion1">
+                <label for="opinion1">Positive</label>
+                <br>
+                <br>
+                <input type="radio" name="answer" id="opinion2">
+                <label for="opinion2">Negative</label>
+                <br>
+                <br>
+                <input type="radio" name="answer" id="opinion3">
+                <label for="opinion3">Neutral</label>
+                <br>
+                <br>
+                <textarea name="comment" id="comment" cols="30" rows="5" placeholder="Type your comments here..." maxlength="250" required></textarea> 
+                <br>
+                <br>
+                <input type="checkbox" name="subscribe" id="subscription">
+                <label for="subscription">I want to subscribe to the newsletter</label>
+                <br>
+                <br>
+                <input class="submit-button" type="submit" value="Send">
+            </form>
+        </fieldset>
     </main>
 
     <div class="bottom-section">
